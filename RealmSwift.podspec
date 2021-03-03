@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.license                   = { :type => 'Apache 2.0', :file => 'LICENSE' }
 
   s.dependency 'Realm', "= #{s.version}"
+  s.swift_versions = ['5.1', '5.2', '5.3']
   s.source_files = 'RealmSwift/*.swift'
   s.exclude_files = 'RealmSwift/Nonsync.swift'
 
